@@ -17,9 +17,6 @@ init-requirements:
 	python3 --version
 	python3 -m pip install --upgrade --user -r requirements.txt
 
-init-hooks:
-	cp -R .githooks/. .git/hooks/
-
 check-types:
 	python3 -m mypy --version
 	stubgen lib/$(package) --output lib/ --quiet

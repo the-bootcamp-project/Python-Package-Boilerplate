@@ -2,7 +2,6 @@ image: "tbcp/datascience-python"
 
 before_script:
   - make init-requirements
-  - make init-hooks
 
 stages:
   - Static Analysis
