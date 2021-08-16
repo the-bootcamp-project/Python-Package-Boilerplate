@@ -55,7 +55,7 @@ deploy-release:
   artifacts:
     paths: [dist]
   only:
-    - release
+    - main
 
 docsify:
   stage: Documenting
