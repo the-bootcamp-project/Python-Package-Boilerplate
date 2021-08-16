@@ -1,7 +1,7 @@
 import pathlib
 import setuptools
 
-PACKAGE_NAME = "python-boilerplate"
+PACKAGE_NAME = "python-boilerplate-tbcp"
 
 VERSION = "0.0.1"
 
