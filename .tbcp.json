@@ -6,7 +6,7 @@
     "PACKAGE_KEYWORDS": "Python Package Boilerplate",
     "PROJECT_URL": "https://gitlab.com/the-bootcamp-project/boilerplates/python-package",
     "PROJECT_URLS": {
-        "Documentation": "https://python.rtfm.page",
+        "Documentation": "https://howto-python-package.rtfm.page",
         "Repository": "https://gitlab.com/the-bootcamp-project/boilerplates/python-package.git",
         "Bug Tracker": "https://gitlab.com/the-bootcamp-project/boilerplates/python-package/-/issues",
         "Docker Hub": "https://hub.docker.com/u/tbcp",

@@ -22,7 +22,7 @@
 - [pytest-dev/pytest](https://github.com/pytest-dev/pytest/)
 - [PyCQA/pylint](https://github.com/PyCQA/pylint)
 - [PyCQA/bandit](https://github.com/PyCQA/bandit)
--
+
 ## 📖 Getting Started 📖
 
 ### ✋ Prerequisites ✋
@@ -131,7 +131,7 @@ pypi:
         - main
 ```
 
-_For more examples, please refer to the [Documentation](https://python.rtfm.page)_
+_For more examples, please refer to the [Documentation](https://howto-python-package.rtfm.page)_
 
 ## ⭐️ Features ⭐️
 
