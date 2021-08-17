@@ -2,5 +2,10 @@
 **/.mypy_cache
 **/.pytest_cache
 
+data/*
 build
 dist
+
+# Project specific
+
+kaggle.json

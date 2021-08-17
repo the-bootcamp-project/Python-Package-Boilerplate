@@ -1,0 +1,15 @@
+{
+    "PACKAGE_NAME_PYPI": "python-boilerplate-tbcp",
+    "PACKAGE_AUTHOR": "Bootcamp contributors",
+    "PACKAGE_EMAIL": "contributors@bootcamp-project.com",
+    "PROJECT_TITLE": "How to build a Python Package",
+    "PACKAGE_KEYWORDS": "Python Package Boilerplate",
+    "PROJECT_URL": "https://gitlab.com/the-bootcamp-project/boilerplates/python-package",
+    "PROJECT_URLS": {
+        "Documentation": "https://python.rtfm.page",
+        "Repository": "https://gitlab.com/the-bootcamp-project/boilerplates/python-package.git",
+        "Bug Tracker": "https://gitlab.com/the-bootcamp-project/boilerplates/python-package/-/issues",
+        "Docker Hub": "https://hub.docker.com/u/tbcp",
+        "Read More...": "https://bootcamp-project.com/"
+    }
+}

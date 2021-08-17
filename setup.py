@@ -1,32 +1,28 @@
 import pathlib
+import json
 import setuptools
-
-PACKAGE_NAME = "python-boilerplate-tbcp"
-
-VERSION = "0.0.1"
 
 # The text of the README file
 README = (pathlib.Path(__file__).parent / "README.md").read_text()
+VERSION = (pathlib.Path(__file__).parent / "VERSION").read_text().rstrip("\n")
+
+tbcp = {}
+with open('./.tbcp.json', "r") as tbcp_json:
+    tbcp = json.load(tbcp_json)
 
 # This call to setup() does all the work
 setuptools.setup(
-    name=PACKAGE_NAME,
+    name=tbcp["PACKAGE_NAME_PYPI"],
     license="MIT",
     version=VERSION,
-    author="Bootcamp contributors",
-    author_email="contributors@bootcamp-project.com",
-    description="How to build a Python Package",
+    author=tbcp["PACKAGE_AUTHOR"],
+    author_email=tbcp["PACKAGE_EMAIL"],
+    description=tbcp["PROJECT_TITLE"],
     long_description=README,
-    keywords="Python Package Boilerplate",
     long_description_content_type="text/markdown",
-    url=f"https://gitlab.com/the-bootcamp-project/boilerplates/python-package",
-    project_urls={
-        'Documentation': f"https://python.rtfm.page",
-        'Repository': f"https://gitlab.com/the-bootcamp-project/boilerplates/python-package.git",
-        'Bug Tracker': f"https://gitlab.com/the-bootcamp-project/boilerplates/python-package/-/issues",
-        'Docker Hub': "https://hub.docker.com/r/tbcp/python",
-        'Read More...': "https://bootcamp-project.com/",
-    },
+    keywords=tbcp["PACKAGE_KEYWORDS"],
+    url=tbcp["PROJECT_URL"],
+    project_urls=tbcp["PROJECT_URLS"],
     classifiers=[
         # How mature is this project? Common values are
         #   3 - Alpha

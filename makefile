@@ -17,24 +17,24 @@ init-requirements:
 	python3 --version
 	python3 -m pip install --upgrade --user -r requirements.txt
 
-check-types:
+types:
 	python3 -m mypy --version
 	stubgen lib/$(package) --output lib/ --quiet
 	python3 -m mypy lib/$(package)
 
-check-lint:
+lint:
 	python3 -m pylint --version
 	python3 -m pylint lib/$(package)
 
-check-secure-code:
+sast:
 	python3 -m bandit --version
-	python3 -m bandit -r lib/$(package)
+	python3 -m bandit -r lib/$(package) -c bandit.yml
 
-unit-test:
+unittests:
 	python3 -m pytest --version
 	python3 -m pytest
 
-build:
+build: | types
 	python3 setup.py sdist bdist_wheel
 
 deploy:

@@ -19,7 +19,13 @@
 
 ### 😎 Built With 😎
 
+- [pytest-dev/pytest](https://github.com/pytest-dev/pytest/)
+- [PyCQA/pylint](https://github.com/PyCQA/pylint)
+- [PyCQA/bandit](https://github.com/PyCQA/bandit)
+-
 ## 📖 Getting Started 📖
+
+**Change the project-specific attributes.** See [TODO](TODO.md) for more information.
 
 ### ✋ Prerequisites ✋
 
@@ -31,7 +37,7 @@ python3 -m pip install --user *PACKAGE*
 
 ## 🚀 Usage 🚀
 
-_For more examples, please refer to the [Documentation](https://dataanalyzing-python.rtfm.page)_
+_For more examples, please refer to the [Documentation](https://python.rtfm.page)_
 
 ## ⭐️ Features ⭐️
 
@@ -39,7 +45,7 @@ _For more examples, please refer to the [Documentation](https://dataanalyzing-py
 
 ## 📋 Roadmap 📋
 
-See the [open issues](https://gitlab.com/the-bootcamp-project/packages/data-science/dataanalyzing-python/-/issues) for a list of proposed features (and known issues).
+See the [open issues](https://gitlab.com/the-bootcamp-project/boilerplates/python-package/-/issues) for a list of proposed features (and known issues).
 
 ## 🤝 Contribute 🤝
 
@@ -62,8 +68,4 @@ Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
 
 ## 🏆 Acknowledgements 🏆
 
-Thanks for these awesome resources that were used during the development of the **Bootcamp Project: DataAnalyzing with Python**:
-
-- [pytest-dev/pytest](https://github.com/pytest-dev/pytest/)
-- [PyCQA/pylint](https://github.com/PyCQA/pylint)
-- [PyCQA/bandit](https://github.com/PyCQA/bandit)
+Thanks for these awesome resources that were used during the development of the **Bootcamp Project: Python Package Boilerplate**:

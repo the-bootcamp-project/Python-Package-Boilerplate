@@ -15,19 +15,8 @@
     // Add the IDs of extensions you want installed when the container is created.
     "extensions": [
 		"eamodio.gitlens",
-		"codezombiech.gitignore",
-		"yzhang.markdown-all-in-one",
-		"davidanson.vscode-markdownlint",
-		"hediet.vscode-drawio",
-		"gruntfuggly.todo-tree",
-		"wayou.vscode-todo-highlight",
-		"ms-azuretools.vscode-docker",
 		"ms-python.python",
-		"jithurjacob.nbpreviewer",
-		"littlefoxteam.vscode-python-test-adapter",
-		"ms-python.vscode-pylance",
-		"bungcip.better-toml",
-		"njpwerner.autodocstring"
+		"bungcip.better-toml"
 	],
 
     // Use 'forwardPorts' to make a list of ports inside the container available locally.
