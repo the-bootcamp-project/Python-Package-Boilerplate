@@ -3,14 +3,14 @@
 <h1 align="center">Python Package Boilerplate (with PyPi CI/CD)</h1>
 
 <div align="center">
-![security: bandit](https://img.shields.io/badge/security-bandit-yellow.svg?style=for-the-badge)
-![PyPI](https://img.shields.io/pypi/v/python-boilerplate-tbcp?style=for-the-badge)
-![PyPI - Status](https://img.shields.io/pypi/status/python-boilerplate-tbcp?style=for-the-badge)
-![PyPI - Implementation](https://img.shields.io/pypi/implementation/python-boilerplate-tbcp?style=for-the-badge)
-![PyPI - Python Version](https://img.shields.io/pypi/pyversions/python-boilerplate-tbcp?style=for-the-badge)
-![PyPI - Wheel](https://img.shields.io/pypi/wheel/python-boilerplate-tbcp?style=for-the-badge)
-![PyPI - License](https://img.shields.io/pypi/l/python-boilerplate-tbcp?style=for-the-badge)
-![Bootcamp Project: Python Package Boilerplate (with PyPi CI/CD)](https://img.shields.io/badge/Bootcamp-Project-blue?style=for-the-badge)
+<img src="https://img.shields.io/badge/security-bandit-yellow.svg?style=for-the-badge" />
+<img src="https://img.shields.io/pypi/v/python-boilerplate-tbcp?style=for-the-badge" />
+<img src="https://img.shields.io/pypi/status/python-boilerplate-tbcp?style=for-the-badge" />
+<img src="https://img.shields.io/pypi/implementation/python-boilerplate-tbcp?style=for-the-badge" />
+<img src="https://img.shields.io/pypi/pyversions/python-boilerplate-tbcp?style=for-the-badge" />
+<img src="https://img.shields.io/pypi/wheel/python-boilerplate-tbcp?style=for-the-badge" />
+<img src="https://img.shields.io/pypi/l/python-boilerplate-tbcp?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Bootcamp-Project-blue?style=for-the-badge" />
 </div>
 
 ## 👉 About 👈
