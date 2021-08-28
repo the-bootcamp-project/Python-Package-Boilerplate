@@ -147,7 +147,7 @@ See [CHANGELOG](CHANGELOG) for more information.
 
 - [ ] Implement Toml Config Parser as a Settings Mechanism
 
-See the [open issues](https://gitlab.com/the-bootcamp-project/boilerplates/python-package/-/issues) for a list of proposed features (and known issues).
+See the [open issues](https://gitlab.com/the-bootcamp-project/packages/boilerplates/python-package/-/issues) for a list of proposed features (and known issues).
 
 ## 🤝 Contribute 🤝
 
